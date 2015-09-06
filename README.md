@@ -9,13 +9,13 @@
 ### 1. clone this repo
 
 ```
-git clone git@github.com:ngoldman/electron-hello-world.git
+git clone git@github.com:sethvincent/electron-2d-game-example.git
 ```
 
 ### 2. `cd` into the repo directory and run `npm install`
 
 ```
-cd electron-hello-world
+cd electron-2d-game-example
 npm install
 ```
 
