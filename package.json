@@ -6,6 +6,7 @@
   "scripts": {
     "start": "electron .",
     "web": "budo game.js:bundle.js",
+    "bundle": "browserify game.js -o bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
