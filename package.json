@@ -1,0 +1,34 @@
+{
+  "name": "electron-2d-game-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "web": "budo game.js:bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethvincent/electron-2d-game-example.git"
+  },
+  "keywords": [
+    "game",
+    "electron",
+    "2d"
+  ],
+  "author": "sethvincent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sethvincent/electron-2d-game-example/issues"
+  },
+  "homepage": "https://github.com/sethvincent/electron-2d-game-example#readme",
+  "devDependencies": {
+    "budo": "^4.2.1",
+    "electron-prebuilt": "^0.31.2"
+  },
+  "dependencies": {
+    "gameloop": "^0.3.2",
+    "keycode": "^2.1.0"
+  }
+}
